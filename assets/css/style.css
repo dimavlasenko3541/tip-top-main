@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+body {
+  color: #353b49;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#f5f5f5));
+  background: -o-linear-gradient(top, #f5f5f5 0%, #f5f5f5 100%);
+  background: linear-gradient(180deg, #f5f5f5 0%, #f5f5f5 100%);
+}
+
+.header {
+  height: 100vh;
+  background: url(/assets/img/image1.svg) center right no-repeat;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+}
+
+.header-menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 93px;
+}
+
+.header-menu__item + .header-menu__item {
+  margin-left: 40px;
+}
+
+.header-menu__link {
+  text-decoration: none;
+  color: #353b49;
+  display: block;
+}
+
+.header-menu__link--phone {
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #353b49;
+  display: block;
+  margin-left: 43px;
+}
+
+.header-menu__link--street {
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #353b49;
+  display: block;
+}
+
+.header-intro {
+  padding-top: 219px;
+  color: #353b49;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-bottom: 348px;
+}
+
+.header-intro__text {
+  margin: 0 auto;
+}
+
+.header-intro__title {
+  font-weight: 800;
+  font-size: 66px;
+  line-height: 66px;
+  margin: 10px 0 40px 0;
+}
+
+.header-intro__link {
+  display: inline-block;
+  padding: 17px 65px;
+  color: white;
+  text-decoration: none;
+  background: #ff8965;
+  -webkit-box-shadow: 0px 15px 30px rgba(255, 137, 101, 0.2);
+          box-shadow: 0px 15px 30px rgba(255, 137, 101, 0.2);
+}
+
+.cards {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
