@@ -132,6 +132,7 @@ body {
 .cards-text {
   font-size: 24px;
   margin-bottom: 40px;
+  margin-top: 0;
 }
 
 .slider-item__text {
@@ -217,24 +218,38 @@ body {
 }
 
 .about {
+  margin-bottom: 150px;
+}
+
+.about-container {
+  max-width: 1500px;
+  padding: 0 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  margin: 0 auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .about-title {
   margin-bottom: 40px;
   margin-top: 0;
   text-align: center;
+  line-height: 24px;
 }
 
 .about-text {
-  margin-top: 0;
-  max-width: 701px;
+  margin: 0;
+  max-width: 684px;
   font-size: 16px;
   line-height: 25px;
   font-weight: normal;
+  padding: 0 10px;
+}
+
+.sertifications__title {
+  margin-top: 0;
+  text-align: center;
 }
